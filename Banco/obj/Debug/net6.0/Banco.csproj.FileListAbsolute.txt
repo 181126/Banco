@@ -1,0 +1,15 @@
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\bin\Debug\net6.0\Banco.exe
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\bin\Debug\net6.0\Banco.deps.json
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\bin\Debug\net6.0\Banco.runtimeconfig.json
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\bin\Debug\net6.0\Banco.dll
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\bin\Debug\net6.0\Banco.pdb
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.csproj.AssemblyReference.cache
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.AssemblyInfoInputs.cache
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.AssemblyInfo.cs
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.csproj.CoreCompileInputs.cache
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.dll
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\refint\Banco.dll
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.pdb
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\Banco.genruntimeconfig.cache
+C:\Users\leide\OneDrive\Documentos\códigos\Banco\Banco\obj\Debug\net6.0\ref\Banco.dll
