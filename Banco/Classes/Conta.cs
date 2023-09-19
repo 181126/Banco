@@ -2,31 +2,44 @@
 {
     internal class Conta
     {
-        public string numeroConta { get; set; } 
-        public string agencia { get; set; } 
-        public string titularConta { get; set; }    
-        public double saldo { get; set; }
+        public string NumeroConta { get; set; } 
+        public string Agencia { get; set; } 
+        public string TitularConta { get; set; }    
+        public double Saldo { get; set; }
+
+        public Conta ()
+        {
+
+        }
+
+        public Conta(string numeroConta, string agencia, string titularConta, double saldo)
+        {
+            NumeroConta = numeroConta;
+            Agencia = agencia;
+            TitularConta = titularConta;
+            Saldo = saldo;
+        }
 
         public virtual void Sacar (double valor)
         {
-            if (saldo >= valor)
+            if (Saldo >= valor)
             {
-                saldo -= valor;
-                Console.WriteLine("Seu saldo agora é de: " + saldo + " reais!");
+                Saldo -= valor;
+                Console.WriteLine("Seu saldo agora é de: " + Saldo + " reais!");
             }
-            else
+            else if (valor < 0)
             {
-                Console.WriteLine("Saldo Insuficiente!");
+                Console.WriteLine("Operação inválida");
             }
         }
         public void Deposito(double valor)
         {
             if (valor > 0)
             {
-                saldo += valor;
-                Console.WriteLine("Seu saldo agora é de: " + saldo + " reais!");
+                Saldo += valor;
+                Console.WriteLine("Seu saldo agora é de: " + Saldo + " reais!");
             }
-            else
+            else 
             {
                 Console.WriteLine("Valor inválido!");
             }

@@ -9,7 +9,7 @@ class Program
 
             if (resposta1 == 1)
             {
-                ContaEmpresarial cEmpresa = new ContaEmpresarial("123", "002", "Renato", 50, 3000, 5, 0);
+                ContaEmpresarial cEmpresa = new ContaEmpresarial("123", "002", "Renato", 50300, 3000, 5, 0);
 
                 Console.WriteLine("Escolha uma opção: " + "\n1- Saque \n2- Depósito \n3-Empréstimo");
                 int resposta2 = Convert.ToInt32(Console.ReadLine());
@@ -35,7 +35,7 @@ class Program
             }
             else if (resposta1 == 2)
             {
-                ContaEstudante cEstudante = new ContaEstudante("1234", "002", "Antonio", 78, 100, "111.222.333-44", "Ifro - Campus Jaru");
+                ContaEstudante cEstudante = new ContaEstudante(100, "111.222.333-44", "Ifro - Campus Jaru", "1234", "002", "Antonio", 78);
 
                 Console.WriteLine("Escolha uma opção: " + "\n1- Saque \n2- Depósito");
                 int resposta3 = Convert.ToInt32(Console.ReadLine());

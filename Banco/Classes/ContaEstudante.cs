@@ -2,31 +2,27 @@
 {
     internal class ContaEstudante: Conta
     {
-        public double limiteChequeEspecial { get; set; }   
-        public string cpf { get; set; } 
-        public string nomeInstituicao { get; set; }     
-
-        public ContaEstudante (string numeroConta, string agencia, string titularConta, double saldo, 
-            double limiteChequeEspecial, string cpf, string nomeInstituicao) 
+        public double LimiteChequeEspecial { get; set; }   
+        public string Cpf { get; set; } 
+        public string NomeInstituicao { get; set; }      
+        
+        public ContaEstudante (double limiteChequeEspecial, string cpf, string nomeInstituicao,
+        string numeroConta, string agencia, string titularConta, double saldo) : base (numeroConta, agencia, titularConta, saldo)
         {
-            this.numeroConta = numeroConta;
-            this.agencia = agencia;
-            this.titularConta = titularConta;
-            this.saldo = saldo;
-            this.limiteChequeEspecial = limiteChequeEspecial;
-            this.cpf = cpf;
-            this.nomeInstituicao = nomeInstituicao;
+            LimiteChequeEspecial = limiteChequeEspecial;
+            Cpf = cpf;
+            NomeInstituicao = nomeInstituicao; 
         }
         public override void Sacar (double valor)
         {
-            if (valor <= (limiteChequeEspecial + saldo))
+            if (valor <= LimiteChequeEspecial + Saldo && valor > 0)
             {
-                saldo -= valor;
-                Console.WriteLine("Saldo atual: " + saldo);
+                Saldo -= valor;
+                Console.WriteLine("Saldo atual: " + Saldo);
             }
-            else
+            else 
             {
-                base.Sacar(valor);
+                Console.WriteLine("Valor inválido!");
             }
             
         }
